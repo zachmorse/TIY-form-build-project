@@ -120,4 +120,4 @@ function createForm(array) {
   }
 }
 
-createForm(formData);
+createForm(formData); // function call
