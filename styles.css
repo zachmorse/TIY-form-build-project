@@ -1,0 +1,65 @@
+body {
+  display: flex;
+  margin: 0%;
+  padding: 0%;
+  justify-content: center;
+  align-items: center;
+}
+
+.alignment-div {
+  border: 3px solid lightgrey;
+  border-radius: 2px;
+
+  margin-top: 2vw;
+}
+
+h1 {
+  background-color: #3e8bc8;
+  color: white;
+  margin: 0;
+  padding: 5%;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1vw 0vw;
+}
+
+input {
+  width: 30vw;
+  margin: 2% 2vw;
+  padding: 2%;
+  border: 1px solid lightgrey;
+  border-radius: 2px;
+}
+
+.submit {
+  width: 10vw;
+  background-color: #3e8bc8;
+  color: white;
+  font-size: 0.8rem;
+  padding: 3%;
+  margin: 4%;
+}
+
+#user-language {
+  width: 32vw;
+  height: 2.5vw;
+  margin: 2% 0vw 4% 0vw;
+}
+
+#user-comment {
+  width: 27.5vw;
+  height: 4vw;
+  padding: 1vw 2vw;
+  margin-bottom: 1vw;
+  resize: none;
+}
+
+.footer-color {
+  background-color: #c8deef;
+}
